@@ -1,6 +1,6 @@
 
-window-loaded
-=============
+@awaitbox/window-loaded
+=======================
 
 Await for the `window` to be loaded.
 
@@ -15,7 +15,7 @@ MDN](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers/onload
 You can use it in async functions:
 
 ```js
-import windowLoaded from 'window-loaded'
+import windowLoaded from '@awaitbox/window-loaded'
 
 async function main() {
   await windowLoaded()
@@ -28,7 +28,7 @@ main()
 You can of course use it as a Promise:
 
 ```js
-import windowLoaded from 'window-loaded'
+import windowLoaded from '@awaitbox/window-loaded'
 
 windowLoaded()
   .then( data => console.log( 'begin awesome!' ) )
@@ -37,7 +37,7 @@ windowLoaded()
 Chain values will pass through if you use it in a Promise chain:
 
 ```js
-import windowLoaded from 'window-loaded'
+import windowLoaded from '@awaitbox/window-loaded'
 
 fetch( ... )
   .then( ... )
