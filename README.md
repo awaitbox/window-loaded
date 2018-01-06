@@ -4,6 +4,8 @@
 
 Await for the `window` to be loaded.
 
+#### `npm i @awaitbox/window-loaded --save`
+
 The `windowLoaded` async function returns a promise that will resolve when the
 `window`'s `load` event fires in the future (i.e. sub-resources like img tags,
 scripts, audio tags, etc, have finished loading), or resolves immediately if
